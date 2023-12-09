@@ -122,6 +122,8 @@ section .container .box {
     /* margin-top: 500px; */
     background-color: #e5e7eb;
     padding: 70px;
+    margin-bottom: 40px;
+
 }
 
 .quote .container p {
@@ -141,4 +143,36 @@ section .container .box {
     color: #1f2937;
     font-weight: bolder;
     margin-top: 0px;
+}
+
+.adv {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: #3882f6;
+    margin: 40px 250px;
+    border-radius: 8px;
+
+}
+
+.adv h3 {
+    color: #f9faf8;
+}
+
+.adv p {
+    color: #e5e7eb;
+}
+
+.adv button {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 600;
+    /* margin-top: 10px; */
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    align-self: center;
 }
