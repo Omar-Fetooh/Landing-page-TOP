@@ -27,6 +27,7 @@ header .container {
     /* margin: 0px 60px; */
     padding-top: 8px;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 header .nav ul {
@@ -39,4 +40,46 @@ header .logo {
     color: #f9faf8;
     font-size: 24px;
     font-weight: 900;
+}
+
+header .header-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+header .header-content h2 {
+    font-size: 48px;
+    /* font-weight: ; */
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: -10px;
+}
+
+header .header-content p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+header .header-content button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+header .header-content img {
+    max-width: 35%;
+    max-height: 5%;
+    margin-bottom: 100px;
+    margin-right: 130px;
+}
+
+header .header-content .left-side {
+    max-width: 30%;
+    margin-left: 50px;
+
 }
