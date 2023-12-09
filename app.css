@@ -83,3 +83,40 @@ header .header-content .left-side {
     margin-left: 50px;
 
 }
+
+section .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+section .container h2 {
+    width: 100vw;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+section .container img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+}
+
+section .container .box {
+    max-width: 200px;
+    max-height: 200px;
+    text-align: center;
+    text-size: 18px;
+    color: #666666;
+}
+
+section .quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+}
