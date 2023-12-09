@@ -114,9 +114,31 @@ section .container .box {
     color: #666666;
 }
 
-section .quote {
+.quote .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 500px;
+    flex-wrap: wrap;
+    /* margin-top: 500px; */
+    background-color: #e5e7eb;
+    padding: 70px;
+}
+
+.quote .container p {
+    max-width: 90%;
+}
+
+.quote .sent {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: light;
+}
+
+.quote .saidby {
+    margin-left: auto;
+    font-size: 30px;
+    color: #1f2937;
+    font-weight: bolder;
+    margin-top: 0px;
 }
